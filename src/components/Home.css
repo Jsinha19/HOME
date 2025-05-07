@@ -1,0 +1,100 @@
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+.hero-slide {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  color: white;
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.slide2 {
+  background: url('../assets/container.webp') no-repeat center center/cover;
+}
+
+.slide3 {
+  background: url('../assets/heavy.webp') no-repeat center center/cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  max-width: 700px;
+  z-index: 1;
+  text-align: left;
+}
+
+.hero-content .logo {
+  width: 180px; 
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff85d;
+  margin: 10px 0;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.swiper-pagination-bullet {
+  background: #fff;
+}
+
+/* Hamburger Menu Styling */
+.hamburger-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  cursor: pointer;
+  gap: 6px;
+}
+
+.hamburger-menu div {
+  width: 24px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
